@@ -1,6 +1,6 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
 xmlns:android="http://schemas.android.com/apk/res/android"
-           id="cordova-plugin-firebase-dynamiclinks2"
+           id="cordova-plugin-firebase-dynamiclinks-crm"
       version="1.0.0">
 
     <name>FirebaseDynamicLinksPlugin</name>
@@ -22,7 +22,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     <preference name="PAGE_LINK_DOMAIN" />
 
     <platform name="android">
-        <preference name="FIREBASE_DYNAMIC_LINKS_VERSION" default="16.0.+"/>
+        <preference name="FIREBASE_DYNAMIC_LINKS_VERSION" default="15.0.+"/>
 
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="FirebaseDynamicLinks">
@@ -50,7 +50,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <source-file src="src/android/FirebaseDynamicLinksPlugin.java" target-dir="src/by/chemerisuk/cordova/firebase" />
 
         <dependency id="cordova-support-android-plugin" version="~1.0.0"/>
-        <dependency id="cordova-support-google-services" version="~1.2.0"/>
+        <!--<dependency id="cordova-support-google-services" version="~1.2.0"/>-->
 
         <framework src="com.google.firebase:firebase-dynamic-links:$FIREBASE_DYNAMIC_LINKS_VERSION" />
     </platform>
