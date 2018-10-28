@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-firebase-dynamiclinks-crm",
+  "name": "cordova-plugin-firebase-dynamiclinks",
   "version": "2.0.0",
   "description": "Cordova plugin for Firebase Dynamic Links",
   "cordova": {
-    "id": "cordova-plugin-firebase-dynamiclinks-crm",
+    "id": "cordova-plugin-firebase-dynamiclinks",
     "platforms": [
       "ios",
       "android"
